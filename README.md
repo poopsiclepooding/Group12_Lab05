@@ -74,7 +74,7 @@ int main(void)
     while (1){
         if (buttonpressed){
             Delay(delaycounter);
-            GPIO_PORTF_DATA_R ^= 0x08;
+            GPIO_PORTF_DATA_R ^= 0x02;
             buttonpressed = false;
         }
     }
